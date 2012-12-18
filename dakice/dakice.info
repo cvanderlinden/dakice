@@ -1,0 +1,35 @@
+; GENERAL INFO
+name = dakice
+description = Theme developed from the Unicorn Admin Bootstrap Template
+screenshot = img/screenshot.png
+version = 1.0
+core = 7.x
+engine = phptemplate
+
+; MAIN STYLE SHEETS
+stylesheets[all][] = css/bootstrap.min.css
+stylesheets[all][] = css/bootstrap-responsive.min.css
+stylesheets[all][] = css/fullcalendar.css
+stylesheets[all][] = css/unicorn.main.css
+stylesheets[all][] = css/unicorn.grey.css
+
+; CUSTOM STYLES
+stylesheets[all][] = css/style.css
+
+; JAVASCRIPT INCLUDES
+scripts[] = js/excanvas.min.js
+scripts[] = js/jquery.min.js
+scripts[] = js/jquery.ui.custom.js
+scripts[] = js/bootstrap.min.js
+scripts[] = js/jquery.flot.min.js
+scripts[] = js/jquery.flot.resize.min.js
+scripts[] = js/jquery.peity.min.js
+scripts[] = js/fullcalendar.min.js
+scripts[] = js/unicorn.js
+scripts[] = js/unicorn.dashboard.js
+
+; CUSTOM JAVASCRIPT INCLUDES
+scripts[] = js/custom.js
+
+; PHP VERSION
+php = 5.0.0
