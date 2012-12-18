@@ -31,5 +31,18 @@ scripts[] = js/unicorn.dashboard.js
 ; CUSTOM JAVASCRIPT INCLUDES
 scripts[] = js/custom.js
 
+; REGIONS
+regions[header] = Header
+regions[search] = Search
+regions[user-nav] = User Nav
+
+regions[sidebar] = Sidebar
+regions[content] = Content
+regions[content-top] = Content Top
+regions[breadcrumb] = Breadcrumb
+regions[content-bottom] = Content Bottom
+
+regions[footer] = Footer
+
 ; PHP VERSION
 php = 5.0.0
