@@ -74,13 +74,13 @@ a:hover {
     z-index: 20;
     margin: 0;
 }
-#user-nav > ul {
+#user-nav ul {
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
-#user-nav > ul > li {
+#user-nav ul > li {
     float: left;
     list-style-type: none;
     margin: 0;
@@ -88,26 +88,26 @@ a:hover {
     padding: 0;
 }
 
-#user-nav > ul > li > a {
+#user-nav ul > li > a {
 	padding: 5px 10px;
 	display: block;
 	font-size: 10px;
 }
 
-#user-nav > ul > li > a:hover, #user-nav > ul > li.open > a {
+#user-nav ul > li > a:hover, #user-nav > ul > li.open > a {
 	color: #ffffff;
 }
-#user-nav > ul > li > a > i, #sidebar li a i {
+#user-nav ul > li > a > i, #sidebar li a i {
 	vertical-align: top;
 	background-image: url('../img/glyphicons-halflings-white.png');
 	opacity: .5;
 	margin-top: 2px;
 }
-#user-nav > ul > li > a:hover > i, #user-nav > ul > li.open > a > i {
+#user-nav ul > li > a:hover > i, #user-nav > ul > li.open > a > i {
 	opacity: 1;
 }
 
-#user-nav > ul > li > a > .label {
+#user-nav ul > li > a > .label {
 	vertical-align: middle;
 	padding: 1px 4px 1px;
 	margin: -2px 4px 0;
@@ -115,11 +115,11 @@ a:hover {
 }
 
 
-#user-nav > ul ul > li > a {
+#user-nav ul ul > li > a {
 	text-align: left;
 	text-shadow: 0 1px 0 #ffffff;
 }
-#user-nav > ul ul > li > a:hover {
+#user-nav ul ul > li > a:hover {
 	text-shadow: 0 1px 0 rgba(0,0,0,0.5);
 }
 
