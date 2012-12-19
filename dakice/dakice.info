@@ -39,7 +39,7 @@ regions[user-nav] = User Navigation
 regions[sidebar] = Sidebar
 
 regions[content-header] = Content Header
-regions[breadcrumbs] = Breadcrumbs
+regions[breadcrumb] = Breadcrumb
 regions[content-top] = Content Top
 regions[content] = Content
 regions[content-bottom] = Content Bottom
