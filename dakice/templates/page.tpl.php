@@ -7,8 +7,8 @@
     <?php print render($page['search']); ?>
   <?php endif; ?>
   
-  <?php if (isset($page['user-nav'])) : ?>
-    <?php print render($page['user-nav']); ?>
+  <?php if (isset($page['usernav'])) : ?>
+    <?php print render($page['usernav']); ?>
   <?php endif; ?>
 
   <?php if (isset($page['sidebar'])) : ?>

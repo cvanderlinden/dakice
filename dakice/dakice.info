@@ -34,15 +34,15 @@ scripts[] = js/custom.js
 ; REGIONS
 regions[header] = Header
 regions[search] = Search
-regions[user-nav] = User Navigation
+regions[usernav] = User Navigation
 
 regions[sidebar] = Sidebar
 
-regions[content-header] = Content Header
+regions[contentheader] = Content Header
 regions[breadcrumb] = Breadcrumb
-regions[content-top] = Content Top
+regions[contenttop] = Content Top
 regions[content] = Content
-regions[content-bottom] = Content Bottom
+regions[contentbottom] = Content Bottom
 
 regions[footer] = Footer
 
