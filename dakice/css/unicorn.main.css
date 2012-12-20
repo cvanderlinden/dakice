@@ -133,62 +133,62 @@ a:hover {
     z-index: 16;
 }
 
-#sidebar > ul {
+#sidebar ul {
 	list-style: none;
 	margin: 10px 0 0;
 	padding: 0;
 	position: absolute;
 	width: 220px;
 }
-#sidebar > ul > li {
+#sidebar ul > li {
 	display: block;	
 	position: relative;
 }
 
-#sidebar > ul > li.active {
+#sidebar ul > li.active {
 	box-shadow: 0 2px 4px rgba(0,0,0,0.2) inset;
 }
 
-#sidebar > ul > li > a {
+#sidebar ul > li > a {
 	padding: 10px 0 10px 15px;
 	display: block;
 	color: #AAAAAA;
 }
 
-#sidebar > ul > li > a > i {
+#sidebar ul > li > a > i {
 	margin-right: 10px;
 }
 
-#sidebar > ul > li.active > a {
+#sidebar ul > li.active > a {
 	background: url("../img/menu-active.png") no-repeat scroll right center transparent !important;
 }
 
-#sidebar > ul > li > a > .label {
+#sidebar ul > li > a > .label {
 	margin: 0 20px 0 0;
 	float: right;
 	padding: 3px 5px 2px;
 	box-shadow: 0 1px 2px rgba(0,0,0,0.5) inset, 0 1px 0 rgba(255,255,255,0.2);
 }
 
-#sidebar > ul ul {
+#sidebar ul ul {
 	display: none;
 	margin: 0;
 	padding: 0;
 	box-shadow: 0 0 3px rgba(0,0,0,0.5) inset;
 }
-#sidebar > ul li.open ul {
+#sidebar ul li.open ul {
 	display: block;
 }
-#sidebar > ul ul li a{
+#sidebar ul ul li a{
 	padding: 10px 0 10px 25px;
 	display: block;
 	color: #777777;
 }
 
-#sidebar > ul ul li:first-child a {
+#sidebar ul ul li:first-child a {
 	border-top: 0;
 }
-#sidebar > ul ul li:last-child a {
+#sidebar ul ul li:last-child a {
 	border-bottom: 0;
 }
 
@@ -1335,10 +1335,10 @@ form {
 		margin-top: -43px;
 		margin-bottom: 43px;
 	}
-	.navbar > .nav {
+	.navbar .nav {
 		float: none;
 	}
-	#user-nav > ul {
+	#user-nav ul {
 		left: 50%;
 		position: absolute;
 	}
@@ -1372,7 +1372,7 @@ form {
 		float: none;
 		width: 100% !important;
 	}
-	#sidebar > a {
+	#sidebar a {
 		padding: 7px 20px 7px 15px;
 		box-shadow: 0 1px 0 #666666;
 		margin-bottom: 1px;
@@ -1381,20 +1381,20 @@ form {
 		color: #eeeeee;
 		font-size: 10px;
 	}
-	#sidebar > a > i {
+	#sidebar a > i {
 		margin-right: 10px;
 		background-image: url('../img/glyphicons-halflings-white.png');
 	}
-	#sidebar > ul {
+	#sidebar ul {
 		display: none;
 		margin: -2px 0 0 !important;
 		width: 100% !important;
 		box-shadow: 0 6px 6px rgba(0,0,0,0.4);
 	}
-	#sidebar > ul > li.active > a {
+	#sidebar ul > li.active > a {
 		background: none !important;
 	}
-	#sidebar > ul > li > a > span {
+	#sidebar ul > li > a > span {
 		display: inline !important;
 	}
 	.widget-title .buttons > .btn {
@@ -1418,10 +1418,10 @@ form {
 	#header h1 {
 		top: 3px;
 	}
-	#sidebar, #sidebar > ul {
+	#sidebar, #sidebar ul {
 		width: 43px;
 	}
-	#sidebar > ul ul {
+	#sidebar ul ul {
 		display: none;
 		position: absolute;
 		left:50px;
@@ -1431,11 +1431,11 @@ form {
 		border-radius: 5px;		
 		list-style: none;
 	}
-	#sidebar > ul ul li a {
+	#sidebar ul ul li a {
 		white-space: nowrap;
 		padding: 10px 25px;
 	}
-	#sidebar > ul ul:before {
+	#sidebar ul ul:before {
 		border-top: 7px solid transparent;
 		border-bottom: 7px solid transparent;
 		content: "";
@@ -1444,7 +1444,7 @@ form {
 		position: absolute;
 		top: 11px;
 	}
-	#sidebar > ul ul:after {
+	#sidebar ul ul:after {
 		border-top: 6px solid transparent;
 		border-bottom: 6px solid transparent;
 		content: "";
@@ -1453,13 +1453,13 @@ form {
 		position: absolute;
 		top: 12px;
     }
-	#sidebar > a {
+	#sidebar a {
 		display: none !important;
 	}
-	#sidebar > ul > li.open.submenu > a {
+	#sidebar ul > li.open.submenu > a {
     border-bottom: none !important;
 	}
-	#sidebar > ul > li > a > span {
+	#sidebar ul > li > a > span {
 		display: none;
 	}
 	#content {
@@ -1493,7 +1493,7 @@ form {
 		padding-right: 20px;
 	}
 	#search { display: none; }
-	#user-nav > ul > li > a > span.text {
+	#user-nav ul > li > a > span.text {
 		display: none;
 	}
 }

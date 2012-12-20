@@ -1,5 +1,5 @@
 <div id="content" <?php print $attributes; ?>>
-    
+  
   <?php if (isset($page['contenttop'])) : ?>
     <?php print render($page['contenttop']); ?>
   <?php endif; ?>

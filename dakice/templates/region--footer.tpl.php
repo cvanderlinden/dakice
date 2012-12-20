@@ -1,5 +1,5 @@
-<div id="user-nav" class="navbar navbar-inverse">
-  <div<?php print $content_attributes; ?>>
+<div class="row-fluid">
+  <div id="footer" class="span12">
     <?php print $content; ?>
   </div>
 </div>
