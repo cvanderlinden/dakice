@@ -39,7 +39,6 @@
 
     </div>
     <div id="breadcrumb">
-      <a href="#" title="Go to Home" class="tip-bottom"><i class="icon-home"></i> Home</a>
       <?php print theme('breadcrumb', array('breadcrumb' => drupal_get_breadcrumb())); ?>
     </div>
     
