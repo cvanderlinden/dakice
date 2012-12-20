@@ -313,6 +313,7 @@ a:hover {
 	background-repeat: no-repeat;
 	font-size: 11px;
 	color: #666666;
+    margin-right: 10px;
 }
 .breadcrumb a:hover {
 	color: #333333;
