@@ -202,7 +202,16 @@ a:hover {
     position: relative;
     min-height: 500px;
     width: auto;
+}
+
+.region-content-header {
+    background: none repeat scroll 0 0 #EEEEEE;
     border-top-left-radius: 8px;
+    margin-left: 220px;
+    margin-right: 0;
+    padding-bottom: 25px;
+    position: relative;
+    width: auto;
 }
 
 #content-header {

@@ -1,20 +1,5 @@
 <?php ?>
 <div id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?>"<?php print $attributes; ?>>
-  <div id="content-header">
-    <h1>
-      <?php print $title; ?>
-    </h1>
-    <div class="btn-group">
-      <a class="btn btn-large tip-bottom" title="Manage Files"><i class="icon-file"></i></a>
-      <a class="btn btn-large tip-bottom" title="Manage Users"><i class="icon-user"></i></a>
-      <a class="btn btn-large tip-bottom" title="Manage Comments"><i class="icon-comment"></i><span class="label label-important">5</span></a>
-      <a class="btn btn-large tip-bottom" title="Manage Orders"><i class="icon-shopping-cart"></i></a>
-    </div>
-  </div>
-  <div id="breadcrumb">
-    <a href="#" title="Go to Home" class="tip-bottom"><i class="icon-home"></i> Home</a>
-    <?php print theme('breadcrumb', array('breadcrumb' => drupal_get_breadcrumb())); ?>
-  </div>
   <div class="container-fluid">
     <div class="row-fluid">
       <div class="span12 center" style="text-align: center;">		
