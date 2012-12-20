@@ -1535,7 +1535,7 @@ body {
     border-bottom: 1px solid #555555;
 }
 
-.region-search input[type=text], #search button {
+.region-search input[type=text], .region-search button {
 	background-color: #222222;
 }
 .region-search input[type=text]:focus {
