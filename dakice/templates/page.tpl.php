@@ -39,11 +39,7 @@
 
     </div>
     
-      <?php 
-      if ($breadcrumb) { 
-        print $breadcrumb; 
-        } 
-      ?>
+      <?php if ($breadcrumb) { print $breadcrumb; } ?>
     
     <?php if ($tabs): ?><div class="tabs"><?php print render($tabs); ?></div><?php endif; ?>
     
