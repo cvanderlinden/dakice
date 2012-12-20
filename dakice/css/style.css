@@ -10,3 +10,7 @@
 .form-item, .form-actions {
 	margin-top: 0;
 }
+
+#page-title:first-letter {
+    text-transform: uppercase;
+}
