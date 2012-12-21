@@ -1,4 +1,4 @@
-<div<?php print $attributes; ?>>
+<div<?php print $attributes; ?> id="pagetpl-wrapper">
   <?php if (isset($page['header'])) : ?>
     <?php print render($page['header']); ?>
   <?php endif; ?>

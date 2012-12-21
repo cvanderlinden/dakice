@@ -2,6 +2,10 @@
  * style.css
  * Place custom CSS code here
  */
+
+#pagetpl-wrapper {
+	position: relative;
+}
  
 .profile {
 	margin: 0 0 1em;
@@ -10,6 +14,10 @@
 	div.profile > :first-child {
 		margin-top: 0;
 	}
+
+.form-item, .form-actions {
+	margin-top: 0;
+}
 
 #page-title:first-letter {
     text-transform: uppercase;
