@@ -320,7 +320,7 @@ a:hover {
 	color: #333333;
 }
 .breadcrumb a:last-child {
-	background-image:none;
+	margin-right: 18px;
 }
 .breadcrumb a:first-child {
 	background-image: url('../img/breadcrumb.png');
