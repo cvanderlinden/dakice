@@ -314,13 +314,12 @@ a:hover {
 	background-repeat: no-repeat;
 	font-size: 11px;
 	color: #666666;
-    margin-right: 10px;
 }
 .breadcrumb a:hover {
 	color: #333333;
 }
 .breadcrumb a:last-child {
-	margin-right: 18px;
+	margin-right: 10px;
 }
 .breadcrumb a:first-child {
 	background-image: url('../img/breadcrumb.png');
