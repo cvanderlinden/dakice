@@ -7,9 +7,9 @@
 	margin: 0 0 1em;
 }
 
-.form-item, .form-actions {
-	margin-top: 0;
-}
+	div.profile > :first-child {
+		margin-top: 0;
+	}
 
 #page-title:first-letter {
     text-transform: uppercase;
