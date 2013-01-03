@@ -33,11 +33,5 @@
         </div>
       </div>
     </div>
-
-    <div class="row-fluid">
-      <div id="footer" class="span12">
-        2010 - <?php echo date("Y"); ?> &copy; Dakice.
-      </div>
-    </div>
   </div>
 </div>

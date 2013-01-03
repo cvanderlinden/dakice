@@ -6,7 +6,7 @@
     <?php endif; ?>
 
     <?php print $content; ?>
-
+    
     <?php if (isset($page['contentbottom'])) : ?>
       <?php print render($page['contentbottom']); ?>
     <?php endif; ?>

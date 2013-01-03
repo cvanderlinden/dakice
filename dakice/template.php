@@ -15,4 +15,14 @@ function dakice_breadcrumb($variables) {
     return $output;
   }
 }
+
+/* Set the size of the exposed filter for find a team to 3
+ * 
+ */
+
+function dakice_form_alter(&$form, $form_state, $form_id)  {
+    if ($form_id == 'views_exposed_form') {
+      $form['field_hockey_type_tid']['#size'] = '3';
+    }
+  }
 ?>

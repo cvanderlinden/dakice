@@ -14,7 +14,7 @@
   <?php if (isset($page['sidebar'])) : ?>
     <?php print render($page['sidebar']); ?>
   <?php endif; ?>
-  <div class="region-content-header">
+  <div class="region region-content-header">
     <div id="content-header">
       <?php print render($title_prefix); ?>
       <?php if ($title): ?><h1 class="title" id="page-title"><?php print $title; ?></h1><?php endif; ?>

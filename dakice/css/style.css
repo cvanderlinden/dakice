@@ -3,26 +3,36 @@
  * Place custom CSS code here
  */
  
-.content {
+.content.clearfix {
   text-align: left;
 }
 
 #pagetpl-wrapper {
-	position: relative;
+  position: relative;
 }
  
 .profile {
-	margin: 0 0 1em;
+  margin: 0 0 1em;
 }
 
 div.profile > :first-child {
-	margin-top: 0;
+  margin-top: 0;
 }
 
 .form-item, .form-actions {
-	margin-top: 0;
+  margin-top: 0;
 }
 
 #page-title:first-letter {
-    text-transform: uppercase;
+  text-transform: uppercase;
+}
+
+.region-content .block {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.container-fluid {
+  padding-left: 0px;
+  padding-right: 0px;
 }
