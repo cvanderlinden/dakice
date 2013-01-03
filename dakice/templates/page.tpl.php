@@ -29,19 +29,19 @@
         <a class="btn btn-large tip-bottom" title="Manage Orders"><i class="icon-shopping-cart"></i></a>
       </div>
 
-      <?php if ($messages): ?>
-        <div id="messages">
-          <div class="section clearfix">
-            <?php print $messages; ?>
-          </div>
-        </div>
-      <?php endif; ?>
-
     </div>
     
       <?php if ($breadcrumb) { print $breadcrumb; } ?>
     
     <?php if ($tabs): ?><div class="tabs"><?php print render($tabs); ?></div><?php endif; ?>
+    
+    <?php if ($messages): ?>
+      <div id="messages">
+        <div class="section clearfix">
+          <?php print $messages; ?>
+        </div>
+      </div>
+    <?php endif; ?>
     
   </div>
 
