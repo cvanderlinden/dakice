@@ -2,6 +2,20 @@
  * style.css
  * Place custom CSS code here
  */
+
+ /*
+  * REGION SPECIFIC CSS
+  */
+
+.region-content .block {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.region-content-header {
+  padding-bottom: 1px;
+}
+
  
 .content.clearfix {
   text-align: left;
@@ -25,11 +39,6 @@ div.profile > :first-child {
 
 #page-title:first-letter {
   text-transform: uppercase;
-}
-
-.region-content .block {
-  padding-left: 20px;
-  padding-right: 20px;
 }
 
 .container-fluid {
