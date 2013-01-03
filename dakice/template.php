@@ -22,7 +22,9 @@ function dakice_breadcrumb($variables) {
 
 function dakice_form_alter(&$form, $form_state, $form_id)  {
     if ($form_id == 'views_exposed_form') {
-      $form['field_hockey_type_tid']['#size'] = '3';
+      if ($form['field_competitiveness_tid']['#size']) $form['field_competitiveness_tid']['#size'] = '4';
+      if ($form['field_hockey_type_tid']['#size']) $form['field_hockey_type_tid']['#size'] = '4';
+      if ($form['field_age_group_tid']['#size']) $form['field_age_group_tid']['#size'] = '4';
     }
   }
 ?>
