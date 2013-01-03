@@ -2,6 +2,10 @@
  * style.css
  * Place custom CSS code here
  */
+ 
+.content {
+  text-align: left;
+}
 
 #pagetpl-wrapper {
 	position: relative;
@@ -11,9 +15,9 @@
 	margin: 0 0 1em;
 }
 
-	div.profile > :first-child {
-		margin-top: 0;
-	}
+div.profile > :first-child {
+	margin-top: 0;
+}
 
 .form-item, .form-actions {
 	margin-top: 0;
